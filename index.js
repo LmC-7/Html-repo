@@ -1,3 +1,5 @@
+//COUNTER  PROGRAM
+
 let count = 0;
 document.getElementById("increaseBtn").onclick = function () {
   count++;
@@ -19,5 +21,4 @@ increaseBtn.onclick = function(){
   count ++ ;
   myLabel.textContent = count;
 }
-
 */
