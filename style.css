@@ -1,4 +1,23 @@
-p{
-    color: rgb(20, 75, 75);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#myLabel {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(35, 185, 137);
+}
+#btnContainer {
+  text-align: center;
+}
+.buttons {
+  padding: 10px 30px;
+  border: 0cap;
+  border-radius: 10%;
+  color: rgb(255, 255, 255);
+  background-color: chocolate;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.buttons:hover {
+  background-color: rgb(164, 75, 12);
 }
